@@ -10,3 +10,6 @@ We used MediaPipe extracted the 3D Pose from each of the frame.
 <br/>Data Shape: Frames, Joints, XYZ
 
 You can use pickle package to load the data.
+
+# Code
+1) Train with all data (<a href="https://colab.research.google.com/drive/102Itf091GPzpxDVmYiPeGVmnc0iKVDYz?usp=sharing">Colab</a>)
