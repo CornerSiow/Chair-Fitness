@@ -27,3 +27,19 @@ You can use pickle package to load the data.
 # Code
 1) Train with all classes (<a target="_blank" href="https://colab.research.google.com/drive/102Itf091GPzpxDVmYiPeGVmnc0iKVDYz?usp=sharing">Colab</a>).
 2) Train with 6 classes and then distinghing non-learned classes.
+
+
+
+## Citing Us
+If you find this project useful in your research, please use the following BibTeX entry for citation.
+```BibTeX
+@inproceedings{siow2023use,
+  title={Use K-Means-Generated Nodes to Distinguish Learned From Non-Learned Exercises},
+  author={Siow, ChyanZheng and Dou, WenBang and Song, QingWei and Chuquirachi, Franz and Obo, Takenori and Kubota, Naoyuki},
+  booktitle={IECON 2023--49th Annual Conference of the IEEE Industrial Electronics Society},
+  year={2023},
+  organization={IEEE}
+}
+```
+
+
