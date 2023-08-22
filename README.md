@@ -1,7 +1,16 @@
-# Chair-Fitness-Activity
-Distinghing Learned and Non-Learned Chair Fitness Activity using K-Means Activation Score
+# Project
+This project is to distinghing Learned and Non-Learned Activity by using K-Means Activation Score.
+<br/>
+We first train a autoencoder model, and then used this encoder to generate the encoded features (Please find in the directory).
+<br/>
+Then, we generate a list of center nodes for each learned class by using k-means algorithm.
+<br/>
+Next, we obtains the activation score of each input data with the center nodes.
+<br/>
+Last, we fed the activation score features to a MLP model for final prediction. 
 
 
+# Chair-Fitness Dataset
 Total 10 Chair-Fitness Activities from 14 person.
 <br/>(1) Leg Kicks, (2) Sit to Stand, (3) Shoulder Flexion, (4) Shoulder Abduction, (5) Chair Push Ups, (6) Shoulder Blade Squeeze, (7) Extended Leg Raises, (8) Seated Side Stretch, (9) Neck Turns, and (10) Seated Calf Raises.
 
@@ -17,4 +26,4 @@ You can use pickle package to load the data.
 
 # Code
 1) Train with all classes (<a target="_blank" href="https://colab.research.google.com/drive/102Itf091GPzpxDVmYiPeGVmnc0iKVDYz?usp=sharing">Colab</a>).
-2) Train with 6 classes and then distinghing non-learned classes
+2) Train with 6 classes and then distinghing non-learned classes.
